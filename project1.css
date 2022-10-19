@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    background-color: #1C6758;
+    width: 100%;
+    position: fixed;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 4px 80px;
+}
+
+
+ul li a:hover {
+    background-color: #3D8361;
+    border-radius: 8px;
+}
+
+.name {
+    font-size: 40px;
+    color: white;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.name {
+    width: 400px;
+    font-size: 120px;
+}
+
+button {
+    font-family: 'Rubik Dirt', cursive;
+    margin-top: 5px;
+    padding: 8px 20px;
+    font-size: 30px;
+    background-color: #D6CDA4;
+    border-radius: 40px;
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #EEF2E6;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-size: larger;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feed {
+    margin-top: 15px;
+    color: black;
+    background-color: gray;
+    width: 300px;
+    height: 450px;
+    font-size: 15px;
+    padding: 12PX;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.lasttwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center {
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    padding: 10px 2px;
+}
+
+.p2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 15px 2px;
+}
+
+
+footer {
+    margin: 12px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(28, 45, 32);
+}
+
+.para1 {
+    padding: 7px 0px;
+    color: wheat;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para2 {
+    padding: 7px 0px;
+    font-size: 10px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
